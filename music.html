@@ -6,32 +6,43 @@
 		<meta name="description" content="Music and other things of interest...">
 		<title>JoeJohnRobert Music</title>	
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body> 
 		<header>
-			<nav>
-				<a href="index.html">Home</a> <a href="videos.html">Videos</a> <a href="archive.html">Video Archive</a> <a href="music.html">Music</a> <a href="contact.html">Contact</a>
-			</nav>
-			<hgroup>	
+			<div id="nav_bar">
+				<div class="wrapper">
+					<nav>
+						<a href="index.html">Home</a> | <a href="videos.html">Videos</a> | <a href="archive.html">Video Archive</a> | <a href="music.html">Music</a> | <a href="contact.html">Contact</a>
+					</nav>	
+				</div>
+			</div>	
+
+			<!-- <hgroup> -->	
+			<div class="wrapper">
 				<h1>JoeJohnRobert's Music</h1>
-				<h2>Some things I've been working on...</h2> 
-			</hgroup>
+				<h2 class="italics">Some things I've been working on...</h2>
+			</div>	 
+			<!-- </hgroup> -->
 		</header>	
 		<hr>
-		<section>
-			<p>Can't Seem to Make You Mine (Seeds cover)</p> 
-			<figure>
-				<audio controls>
-					<source src="audio/webclicktrimmed.mp4" type="audio/mp4">
-					<source src="audio/webclicktrimmed.ogg" type="audio/ogg">
-					Your browser does not support HTML5. Please upgrade your browser.	
-				</audio>
-			<!-- <figcaption>Can't Seem to Make You Mine (Seeds Cover) &copy; by Joe Cardarelli 2014
+		<div class="wrapper">
+			<section>
+				<h5>Can't Seem to Make You Mine (Seeds cover)</h5> 
+				<figure>
+					<audio controls>
+						<source src="audio/webclicktrimmed.mp4" type="audio/mp4">
+						<source src="audio/webclicktrimmed.ogg" type="audio/ogg">
+						Your browser does not support HTML5. Please upgrade your browser.	
+					</audio>
+		</div>			
+				<!-- <figcaption>Can't Seem to Make You Mine (Seeds Cover) &copy; by Joe Cardarelli 2014
 			</figcaption> -->
+		</figure>
 		</section>		 
 		<hr>
 		<footer>
-			&copy; Joe Cardarelli | All Rights Reserved
+			Who's that boy with the sandwich in his hand?
 		</footer>	
 	</body>
 </html>

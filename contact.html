@@ -6,26 +6,35 @@
 		<meta name="description" content="Music and other things of interest...">
 		<title>JoeJohnRobert Contact</title>
 		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<a href="index.html">Home</a> <a href="videos.html">Videos</a> <a href="archive.html">Video Archive</a> <a href="music.html">Music</a> <a href="contact.html">Contact</a>
-			</nav>	
-			<hgroup>
+			<div id="nav_bar">
+				<div class="wrapper">
+					<nav>
+						<a href="index.html">Home</a> | <a href="videos.html">Videos</a> | <a href="archive.html">Video Archive</a> | <a href="music.html">Music</a> | <a href="contact.html">Contact</a>
+					</nav>
+				</div>		
+			</div>	
+			<!-- <hgroup> -->
+			<div class="wrapper">
 				<h1>Hit me up!</h1>
-			</hgroup>	
-		</header>	
-		<section>
-			<form method="post" action="#">
-				Name<input type="text" name="name" placeholder="Captain Sensible" required> 
-	 			Email<input type="email" name="email" placeholder="catlover@geocities.com" required>
-	 			Message<textarea rows="10" name="message" placeholder="Your site rocks!"></textarea>
-	 			<input type="submit" value="Send!">	
-	 		</form>
-	 	</section>	
+			</div>	
+			<!-- </hgroup>	-->
+		</header>
+		<div class="wrapper">	
+			<section>
+				<form method="post" action="#">
+					Name<input type="text" name="name" placeholder="Captain Sensible" required> 
+		 			Email<input type="email" name="email" placeholder="catlover@geocities.com" required>
+		 			Message<textarea rows="10" name="message" placeholder="Your site rocks!"></textarea>
+		 			<input type="submit" value="Send!">	
+		 		</form>
+		 	</section>
+		</div> 		
  		<footer>
-			&copy; Joe Cardarelli | All Rights Reserved
+			Who's that boy with the sandwich in his hand?
 		</footer>	
 	</body>
 </html>

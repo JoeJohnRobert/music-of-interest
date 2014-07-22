@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+/* @import url(http://fonts.googleapis.com/css?family=Crete+Round); 
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);*/
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+/********** Fixes **********/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/*fixes collapsing parents*/
+.clearfix: after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+
+/********GLOBAL***********/
+
+body {
+	background: url(../images/weave2.jpg);
+	padding: 10px 0;
+}
+
+p {
+	font-family: "Inconsolata", serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: "Special Elite", serif;
+}
+
+h2, h3, h4, h5, table, form {
+	font-family: "Inconsolata", serif;
+}
+
+footer {
+	font-family: "Special Elite", serif;
+	font-size: 12px;
+	text-align: right;
+}
+
+.wrapper{
+	width: 88%;
+	margin: 0 auto; 
+}
+
+.italics {
+	font-style: italic;
+}
+
+/* For centering images */ 
+
+.image_center {
+	text-align: center;
+}
+
+/* Index Page Logo */
+
+#logo {
+	width: 55%;
+	height: 80px;
+	background-image: url(../images/wood.jpg);
+ 	padding: 20px 20px 20px 20px;
+	margin: 20px auto;
+	border-radius: 25px; 
+	border: 1px solid #FFF;
+}
+
+#logo h1, h4 {
+	font-family: "Special Elite", serif; 
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 2px 3px #000;
+	line-height: 26px
+
+}
+
+/* Nav bar formatting */
+#nav_bar {
+	font-family: "Inconsolata", serif;
+	text-transform: uppercase; 
+	color: #FFF;
+}
+
+a:link, :visited {
+	color: #FFF;
+	text-decoration: none;
+} 
+
+a:hover {
+	color: #7D26CD;
+	text-decoration: underline;
+}
+
+a:active {/* selects links while mouse is depressed */ 
+	color: #BF5FFF;
+}
+
+/* APPLIED TO WHOLE BODY INSTEAD
+
+#weave {
+	background-image: url(../images/weave.jpg);
+	/*background-position: center lef;
+	background-repeat: no-repeat, repeat-y; 
+	padding: 10px 0;
+}				*/
