@@ -34,6 +34,7 @@ body {
 
 p {
 	font-family: "Inconsolata", serif;
+	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 1.5em;
 	padding: 5px 0px;
@@ -47,11 +48,13 @@ h1 {
 
 h2, h3, h4, h5 {
 	font-family: "Inconsolata", serif;
+	text-transform: uppercase;
 	padding: 5px 0px;
 } 
 
 table, form {
 	font-family: "Inconsolata", serif;
+	text-transform: uppercase;
 }
 
 section {
@@ -79,7 +82,8 @@ footer {
 
 .italics {
 	font-style: italic;
-	color: white;
+	color: #51515;
+	text-transform: uppercase;
 }
 
 /* For centering images */ 
@@ -105,7 +109,7 @@ footer {
 
 #logo {
  	padding: 20px 0px;
- 	background: #282828; url(../images/weave2.jpg);
+ 	background: #202020; url(../images/weave2.jpg);
  	margin: 0px auto 10px;
  	border-bottom: 6px solid black;
  	display: block;
@@ -126,7 +130,35 @@ footer {
 	text-transform: uppercase; 
 	color: #FFF;
 	background: black;
-	padding-bottom: 8px
+	
+}
+
+#nav_bar nav a {
+	display: inline-block;
+	width: 11%;
+	padding: 5px 0px 8px;
+	margin: 0;
+	text-transform: uppercase;	
+	text-align: center; 
+	/*border-right: 1px solid #ccc;
+*/
+}
+
+#nav_bar a.selected {
+	background: black;
+	color: #8a3bd2;
+}
+
+#nav_bar nav a:hover{
+	background: #a467dc;
+	color: black; 
+	text-decoration: underline;
+}
+
+#nav_bar a:active{
+	background: black;
+	text-decoration: none;
+	color: #a467dc;
 }
 
 #border {
@@ -139,21 +171,61 @@ footer {
 	border-image-width: 20px; 
 	border-image-outset: 0; 
 	border-image-repeat: round; */
-
- 
 }
+
+#social {
+	position: fixed;
+	top: 200px;
+	right: 20px;
+	width: 40px;
+	z-index: 1;
+}
+
+	a.twitt, a.insta{
+		display: block;
+		width: 40px;
+		height: 40px;
+		text-indent: 100%;
+		overflow: hidden;	
+		white-space: nowrap;
+		background: url(../images/social-icons.jpg) no-repeat;	
+	}
+
+	a.insta	{
+		background-position: 0px -200px;
+	}	 
+	
+	a.insta:hover {
+		background-position: -40px -200px;
+	}
+
+	a.insta:active {
+		background-position: -80px -200px;
+	}
+
+	a.twitt {
+		background-position: 0 -40px;
+	}
+
+	a.twitt:hover {
+		background-position: -40px -40px;
+	}
+
+	a.twitt:active {
+		background-position: -80px -40px;
+	}
+
 a:link, :visited {
 	color: #FFF;
 	text-decoration: none;
 } 
 
-a:hover {
+/*a:hover {
 	color: #7D26CD;
 	text-decoration: underline;
-}
+}*/
 
-a:active {/* selects links while mouse is depressed */ 
-	color: #BF5FFF;
+
 }
 
 table {
