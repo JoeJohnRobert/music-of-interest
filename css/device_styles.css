@@ -1,0 +1,40 @@
+/**
+ * Smartphone Portrait: 320px
+ */
+
+@media only screen and (max-width: 320px) {
+	.wrapper {
+		width: 80%;
+	}
+
+	#nav_bar {
+		width: 100%;
+		text-align: center;
+	}
+
+	#nav_bar .wrapper {
+		width: 100%;
+	}
+
+	#nav_bar nav a {
+		display: block;
+		width: 100%;
+		font-size: 1.25em;		
+		
+	}
+
+	.col1_left, .col1_right, .col1_mid, .col2_right, .col2_left {
+		float: none;
+		width: 100%;
+		margin: 0 0 20px;
+	} 
+
+	#social	{
+		display: none;
+
+	}
+
+	audio	{
+		width: 100%;
+	}
+}
