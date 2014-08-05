@@ -7,6 +7,10 @@
 		width: 80%;
 	}
 
+	#logo {
+		font-size: .9em;
+	}
+
 	#nav_bar {
 		width: 100%;
 		text-align: center;

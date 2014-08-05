@@ -32,6 +32,10 @@ body {
 	padding: ;
 }
 
+	audio	{
+		width: 100%;
+	}
+
 p {
 	font-family: "Inconsolata", serif;
 	text-transform: uppercase;
@@ -312,6 +316,18 @@ input[type="submit"] {
 	.col3 {
 		margin: 0 0 20px;
 		clear: both;
+	}
+
+	input.verif_box {
+		display: inline-block;
+		width: 226px;
+		margin-right: 5px;
+	}
+
+	img.verif_img {
+		width: 50px;
+		height: 35px;
+		vertical-align: bottom;
 	}
 /* APPLIED TO WHOLE BODY INSTEAD
 

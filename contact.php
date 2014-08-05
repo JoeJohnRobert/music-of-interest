@@ -44,7 +44,7 @@
 						Name<input type="text" name="name" placeholder="CAPTAIN SENSIBLE" required> 
 			 			Email<input type="email" name="email" placeholder="CATLOVER@GEOCITIES.COM" required>
 			 			Message<textarea rows="10" name="message" placeholder="YOUR SITE ROCKS!"></textarea>
-			 			<input type="text" name="verify" class="verif_box" placeholder="VERIFY YOU'RE HUMAN" required> 
+			 			<input type="text" name="verify" class="verif_box" placeholder="TYPE THE SECRET PASSCODE ;)" required> 
 						<img class="verif_img" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="verification image">
 			 			<input type="submit" value="Send!">	
 			 		</form>
